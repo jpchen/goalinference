@@ -404,7 +404,7 @@ def test_problem_two_resample_and_rejuvenate(
 
 def test_cgem_problem_one():
     state = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-1.json"
+        "goal_inference/continuous_gems/test_problems/problem-1.json"
     )
     domain = CGemDomain()
     planner = StochasticAstarPlanner(domain, manhattan_gem_heuristic, 0.1)
@@ -429,7 +429,7 @@ def test_cgem_problem_one():
 def test_cgem_problem_two():
 
     state = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-2.json"
+        "goal_inference/continuous_gems/test_problems/problem-2.json"
     )
     domain = CGemDomain()
     planner = StochasticAstarPlanner(domain, manhattan_gem_heuristic, 0.1)

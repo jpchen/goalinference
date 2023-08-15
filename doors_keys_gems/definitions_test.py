@@ -27,7 +27,7 @@ def gem():
 @pytest.fixture
 def state():
     state = parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
     )
     return state
 

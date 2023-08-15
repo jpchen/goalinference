@@ -3,7 +3,7 @@ from doors_keys_gems.parser import parse
 
 def test_state_load_problem_1():
     state = parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
     )
     ### walls
     assert len(state.has) == 0
@@ -37,7 +37,7 @@ def test_state_load_problem_1():
 
 def test_state_load_problem_2():
     state = parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-2.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-2.pddl"
     )
 
     ### walls
@@ -79,7 +79,7 @@ def test_state_load_problem_2():
 
 def test_state_load_problem_3():
     state = parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-3.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-3.pddl"
     )
 
     ### walls
@@ -141,7 +141,7 @@ def test_state_load_problem_3():
 
 def test_state_load_problem_4():
     state = parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-4.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-4.pddl"
     )
 
     ### walls

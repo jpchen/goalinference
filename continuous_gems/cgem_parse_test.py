@@ -3,7 +3,7 @@ from continuous_gems.cgem_parse import parse
 
 def test_cgem_parse_problem_one():
     problem_one = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-1.json"
+        "goal_inference/continuous_gems/test_problems/problem-1.json"
     )
     assert problem_one.goal == ("has", "gem1")
     assert problem_one.width == 5.0
@@ -25,7 +25,7 @@ def test_cgem_parse_problem_one():
 
 def test_cgem_parse_problem_two():
     problem_one = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-2.json"
+        "goal_inference/continuous_gems/test_problems/problem-2.json"
     )
     assert problem_one.goal == ("has", "gem1")
     assert problem_one.width == 5.0
@@ -46,7 +46,7 @@ def test_cgem_parse_problem_two():
 
 def test_cgem_parse_problem_three():
     problem_one = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-3.json"
+        "goal_inference/continuous_gems/test_problems/problem-3.json"
     )
     assert problem_one.goal == ("has", "gem1")
     assert problem_one.width == 5.0

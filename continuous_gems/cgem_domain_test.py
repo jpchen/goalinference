@@ -13,7 +13,7 @@ def cgem_domain():
 @pytest.fixture(scope="function")
 def state_one():
     return parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-1.json"
+        "goal_inference/continuous_gems/test_problems/problem-1.json"
     )
 
 

@@ -10,7 +10,7 @@ from doors_keys_gems.parser import parse
 @pytest.fixture
 def state():
     dkg_state = parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
     )
     return dkg_state
 

@@ -11,7 +11,7 @@ from torch.distributions.normal import Normal
 
 def test_cgem_observation_noise_positions_and_angles():
     state = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-2.json"
+        "goal_inference/continuous_gems/test_problems/problem-2.json"
     )
     noise_model = CGemObservation(bernoulli_noise=0.0)
     noisy_state = noise_model.apply_noise(state)
@@ -24,7 +24,7 @@ def test_cgem_observation_noise_positions_and_angles():
 
 def test_cgem_observation_noise_gems():
     state = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-2.json"
+        "goal_inference/continuous_gems/test_problems/problem-2.json"
     )
     noise_model = CGemObservation(
         position_noise=0.01, angle_noise=0.01, bernoulli_noise=1.0
@@ -38,7 +38,7 @@ def test_cgem_observation_noise_gems():
 
 def test_cgem_observation_log_prob():
     state = parse(
-        "beanmachine/facebook/goal_inference/continuous_gems/test_problems/problem-2.json"
+        "goal_inference/continuous_gems/test_problems/problem-2.json"
     )
     noise_model = CGemObservation()
     new_state = dataclasses.replace(state, x=state.x + 1.0)

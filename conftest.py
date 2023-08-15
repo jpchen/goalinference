@@ -23,28 +23,28 @@ def dkg_domain():
 @pytest.fixture(scope="module")
 def dkg_state_one():
     return parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-1.pddl"
     )
 
 
 @pytest.fixture(scope="module")
 def dkg_state_two():
     return parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-2.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-2.pddl"
     )
 
 
 @pytest.fixture(scope="module")
 def dkg_state_three():
     return parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-3.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-3.pddl"
     )
 
 
 @pytest.fixture(scope="module")
 def dkg_state_four():
     return parse(
-        "beanmachine/facebook/goal_inference/doors_keys_gems/test_problems/problem-4.pddl"
+        "goal_inference/doors_keys_gems/test_problems/problem-4.pddl"
     )
 
 
